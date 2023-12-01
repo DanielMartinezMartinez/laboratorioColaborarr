@@ -49,7 +49,7 @@ public class Actividades {
     }
 
     public static void ejercicio1() {
-        int numeros [] = new int[10];
+        int numeros [] = new int[20];
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("Introduzaca el valor " + (i+1));
             numeros[i] = validaInt();
@@ -59,7 +59,7 @@ public class Actividades {
 
     public static void ejercicio2() {
         int suma = 0;
-        int Snumeros [] = new int[10];
+        int Snumeros [] = new int[15];
         for (int i = 0; i < Snumeros.length; i++) {
             System.out.println("Introduzaca el valor " + (i+1));
             Snumeros[i] = validaPositivo();
